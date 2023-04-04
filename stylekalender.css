@@ -73,7 +73,8 @@ table {
 
 #containerkalender {
     margin-right: auto;
-    margin-left: 0;
+    margin-left: 80px;
+    position: relative;
 
     width: 700px;
     height: 550px;
