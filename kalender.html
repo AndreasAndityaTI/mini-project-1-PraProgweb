@@ -16,7 +16,6 @@
     <header>
         Kalender 2023
     </header>
-<br><br>
     <aside>
         <div id="kontainerharitanggal">
             <h1 id="haritanggal">Kamis</h1>
@@ -29,10 +28,22 @@
         <div id="kontainerevents">
         <div id="eventbox">
             <ul>
-            <li><a>2 : UTS</a></li>
-            <li><a>11 : Ulang Tahun</a></li>
-            <li><a>13 : Deadline Projek</a></li>
+                <li><a>Keterangan : 
+                    <ul>
+                        <li id="biasa"><a>Biasa</a></li>
+                        <li id="sedang"><a>Sedang</a></li>
+                        <li id="penting"><a>Sangat Penting</a></li>
 
+
+                    </ul>
+                </a></li>
+                <div id="bisa_diklik">
+                <li id="penting"><a href="https://github.com/AndreasAndityaTI/mini-project-1-PraProgweb">1 : Mulai Projek</a></li>
+
+            <li id="sedang"><a href="#" >2 : Bootcamp</a></li>
+            <li id="biasa"><a  href="#">11 : Ulang Tahun</a></li>
+            <li id="penting"><a  href="https://github.com/AndreasAndityaTI/mini-project-1-PraProgweb">13 : Deadline Projek</a></li>
+                    </div>
         </ul>
         </div>
 
@@ -64,11 +75,11 @@
                         </td>
                         <td>
                             <div class="num">1</div>
-                            <div class="reminder"></div>
+                            <div class="reminder" id="active_penting"></div>
                         </td>
                         <td>
                             <div class="num">2</div>
-                            <div class="reminder" id="active"></div>
+                            <div class="reminder" id="active_sedang"></div>
                         </td>
                         <td>
                             <div class="num">3</div>
@@ -107,7 +118,7 @@
                         </td>
                         <td>
                             <div class="num">11</div>
-                            <div class="reminder" id="active"></div>
+                            <div class="reminder" id="active_biasa"></div>
                         </td>
                     </tr>
 
@@ -118,7 +129,7 @@
                         </td>
                         <td>
                             <div class="num">13</div>
-                            <div class="reminder" id="active"></div>
+                            <div class="reminder" id="active_penting"></div>
                         </td>
                         <td>
                             <div class="num">14</div>
