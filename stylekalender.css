@@ -53,6 +53,15 @@ main {
     float: right;
 }
 
+#main2 {
+    margin: 5% 0 0 0;
+    /* width: 30%; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
 
 
 div.reminder#active {
@@ -70,6 +79,9 @@ div.reminder#active_penting {
     border-radius: 50%;
     margin:auto;
     margin-bottom: -11px;
+    /* text-align: center; */
+    /* transform: translateX(-300%); */
+
 }
 div.reminder#active_biasa {
     height: 10px;
@@ -78,6 +90,8 @@ div.reminder#active_biasa {
     border-radius: 50%;
     margin:auto;
     margin-bottom: -11px;
+    /* transform: translateX(-300%); */
+
 }
 div.reminder#active_sedang {
     height: 10px;
@@ -86,6 +100,7 @@ div.reminder#active_sedang {
     border-radius: 50%;
     margin:auto;
     margin-bottom: -11px;
+    /* transform: translateX(-300%); */
 }
 table {
     width: 100%;
@@ -94,6 +109,14 @@ table {
 
 #tabeltanggal #angka {
     height: 75px;
+    /* text-align: left; */
+    /* transform: translateX(10%); */
+}
+
+#tabeltanggal #kegiatan {
+    height: 75px;
+    text-align: left; 
+     transform: translateX(10%);
 }
 
 #containerkalender {
@@ -102,13 +125,16 @@ table {
     /* margin-left: 5%; */
     /* position: ; */
 
+
     width: 700px;
     height: 550px;
 
     border-radius: 30px;
     background-color: #fcf8f5;
+    overflow: scroll;
 
 }
+
 
 #prev, #next {
     color: rgb(201, 201, 201);
