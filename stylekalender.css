@@ -188,6 +188,10 @@ ul.breadcrumb li+li:before {
   padding: 0px;
   color: black;
   content: ">\00a0";
+  font-weight: bold;
+  
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  
 }
 
 /* Add a color to all links inside the list */
