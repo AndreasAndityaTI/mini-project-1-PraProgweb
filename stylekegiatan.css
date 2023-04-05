@@ -39,7 +39,7 @@
 
 }
 
-img{
+#gambarKegiatan{
     margin-top: 10%;
     border-radius: 10%;
 }
@@ -79,4 +79,9 @@ img{
     background-color: green;
     color: white;
     padding: 1%;
+}
+
+.icon{
+
+    padding-right: 10%;
 }
