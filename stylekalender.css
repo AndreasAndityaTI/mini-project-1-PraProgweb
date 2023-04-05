@@ -254,6 +254,10 @@ ul.breadcrumb li a:hover {
     color: blue;
         text-decoration: underline;
 }
+
+#bisa_diklik_membesar:hover{
+    font-size: xx-large;
+}
 #kontainerharitanggal h1, #kontainerevents h1 {
     background-color: #fa952d;
     height: 58.5px;
