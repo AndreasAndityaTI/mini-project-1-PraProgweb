@@ -116,7 +116,7 @@ table {
 #tabeltanggal #kegiatan {
     height: 75px;
     text-align: left; 
-     transform: translateX(10%);
+     /* transform: translateX(-10%); */
 }
 
 #containerkalender {
