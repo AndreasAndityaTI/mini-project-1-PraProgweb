@@ -85,3 +85,11 @@
 
     padding-right: 10%;
 }
+
+#kegiatan > td + td + td >div >a{
+       color: black;
+    font-size: 15px;
+    font-weight: bold;
+        text-decoration: underline;
+
+}
